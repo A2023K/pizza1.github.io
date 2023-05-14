@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ke's pizza</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="header">
+        <h1 class="brand-title">Pizza booking:</h1>
+    </section>
+    <div class="bread-crumps-div">
+        <span class="name1">Pizza's</span>
+        <span class="name1">Toppings: </span>
+    </div>
+    <!-- MODAL start -->
+    <div id="modal-confirm-order" class="no-display">
+        <h2 class="modal-msg">Thank you for your order!!</h2>
+        <div id="ordered-toppings">
+            <!-- optional extra milestone #1 : display selected toppings here -->
+        </div>
+        <h2 id="modal-total-cost-display"> <!-- optional extra milestone #2 : display total cost of selected toppings here --> </h2>
+        <a href="">Refresh</a>
+    </div>
+    <div id="modal-bg" class="no-display"></div>
+    <!-- modal end -->
+    <section class="main-content">
+        <h2 class="toppings-title">Choose your pizza toppings</h2>
+
+        <!-- elements to interact with starts below -->
+
+        <div class="selection-buttons-div">
+            <span class="selection-btn" id="select-all-btn">Select All</span>
+            <span class="selection-btn" id="clear-all-btn">Clear All</span>
+        </div>
+
+        <div class="topping-options-menu">
+            <!-- <div class="topping-card">
+                <span class="special no-display">SPECIAL</span>
+                <div class="topping-img-name-div">
+                    <img src="" alt="" class="topping-img">
+                    <h2 class="topping-name">Pepperoni</h2>
+                </div>
+                <div class="topping-price-div">
+                    <span>extra</span>
+                    <h1 class="topping-price">1</h1>
+                    <h1>$</h1>
+                </div>
+            </div> -->
+        
+        </div>
+        <h2 id="confirm-order-btn">Confirm</h2>
+        <!-- elements to interact with ends above -->
+    </section>
+    <section class="footer">
+        <h2>Contact us: forgot number, hahaha...</h2>
+        <p class="copyright">@Copyrighted by Ke's</p>
+    </section>
+<script src="./script.js" ></script>
+</body>
+</html>
